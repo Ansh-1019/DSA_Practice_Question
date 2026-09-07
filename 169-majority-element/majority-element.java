@@ -4,8 +4,6 @@ class Solution {
        for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-
-        // Step 2: Find the number with highest frequency
         int maxFrequency = 0;
         int majority = 0;
 
